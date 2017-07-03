@@ -1,0 +1,11 @@
+{
+  "name": "request-interception",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "t",
+  "license": "MIT",
+  "dependencies": {
+    "chrome-launcher": "^0.3.0",
+    "chrome-remote-interface": "^0.23.3"
+  }
+}
