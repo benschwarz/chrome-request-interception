@@ -3,6 +3,7 @@ const ChromeLauncher = require('chrome-launcher')
 
 const go = async () => {
   const Chrome = await ChromeLauncher.launch({
+    // chromeFlags: ['--headless'],
     port: 9222
   })
 
@@ -18,12 +19,8 @@ const go = async () => {
 
   await Page.navigate({ url: 'https://calibreapp.com' })
 
-  Network.requestIntercepted(() => {
-    console.log(arguments)
-  })
-
   devtools.on('event', message => {
-    if (message.method === 'Network.enableRequestInterception') console.log(message)
+    if (message.method === 'Network.requestIntercepted') console.log('intercepted', message)
   })
 
   Page.loadEventFired(() => Chrome.kill())
