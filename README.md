@@ -1,5 +1,5 @@
 # Chrome Remote Protocol Request Interception Test
-This repo serves only as a standalone demonstration of how to capture a request. As of writing, this is [currently not working](https://groups.google.com/d/msg/chrome-debugging-protocol/MaIbpNPWqgI/56G3ep-aAwAJ.
+This repo serves only as a standalone demonstration of how to capture a request. As of writing, this is [currently not working](https://groups.google.com/d/msg/chrome-debugging-protocol/MaIbpNPWqgI/56G3ep-aAwA).
 
 Created to share with the Chrome team to gain an understanding of if I'm either doing it wrong, or if theres a bug.
 
