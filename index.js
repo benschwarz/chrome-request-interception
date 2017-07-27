@@ -15,7 +15,7 @@ const go = async () => {
     Network.enable()
   ])
 
-  await Network.enableRequestInterception({ enabled: true })
+  await Network.setRequestInterceptionEnabled({ enabled: true })
 
   await Page.navigate({ url: 'https://calibreapp.com' })
 
