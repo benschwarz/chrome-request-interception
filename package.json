@@ -6,6 +6,6 @@
   "license": "MIT",
   "dependencies": {
     "chrome-launcher": "^0.3.0",
-    "chrome-remote-interface": "^0.23.3"
+    "chrome-remote-interface": "^0.24.2"
   }
 }
